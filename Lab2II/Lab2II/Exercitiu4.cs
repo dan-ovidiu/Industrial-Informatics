@@ -116,5 +116,29 @@ namespace Lab2II
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Your answer is correct! Scuderia Ferrari has 249 wins in F1.");
+            }
+            else
+            {
+                MessageBox.Show("Your answer is incorrect! Try again!");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (radioButton5.Checked)
+            {
+                MessageBox.Show("Your answer is correct! Max Verstappen won the Driver's Championship in 2024 with his RB20.");
+            }
+            else
+            {
+                MessageBox.Show("Your answer is incorrect! Try again!");
+            }
+        }
     }
 }
