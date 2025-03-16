@@ -41,5 +41,10 @@ namespace Lab2II
             newForm.Show();
             label1.Text = readUsername;
         }
+
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

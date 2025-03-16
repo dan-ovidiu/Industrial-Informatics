@@ -33,8 +33,6 @@ namespace Lab2II
                 }
                 listBox1.EndUpdate();
             }
-
-
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
